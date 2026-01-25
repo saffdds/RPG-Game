@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import random
 
-# --- LOGICA DEL GIOCO (Dal codice del tuo amico) ---
+# --- LOGICA DEL GIOCO (Dal codice del tuo amico) ---ss
 personaggio = {"nome": "Eroe", "livello": 1, "hp": 100, "attacco": 10}
 inventario = []
 lista_mostri = [
@@ -10,9 +10,10 @@ lista_mostri = [
     {"nome": "Orco", "hp": 50, "attacco": 10},
     {"nome": "Drago", "hp": 100, "attacco": 20},
     {"nome": "Scemo", "hp": 1, "attacco": 0},
-    {"nome": "Windows Updete", "hp": 250, "attacco": 2}
+    {"nome": "Windows Updete", "hp": 250, "attacco": 2},
+    {"nome": "doc", "hp": 0, "attacco": 2},
 ]
-oggetti_possibili = [{"nome": "Pozione"}, {"nome": "Spada Arrugginita"}, {"nome": "Scudo"}, {"nome": "PC",} ]
+oggetti_possibili = [{"nome": "Pozione"}, {"nome": "Spada Arrugginita"}, {"nome": "Scudo"}, {"nome": "PC"}, {"nome": "Orologio"}, ]
 
 # --- FUNZIONI DELL'INTERFACCIA ---
 def aggiorna_stato():
