@@ -12,8 +12,16 @@ lista_mostri = [
     {"nome": "Scemo", "hp": 1, "attacco": 0},
     {"nome": "Windows Updete", "hp": 250, "attacco": 2},
     {"nome": "doc", "hp": 0, "attacco": 2},
+    {"nome": "Dio Della morte", "hp": 10, "attacco": 100},
 ]
-oggetti_possibili = [{"nome": "Pozione"}, {"nome": "Spada Arrugginita"}, {"nome": "Scudo"}, {"nome": "PC"}, {"nome": "Orologio"}, ]
+oggetti_possibili = [
+    {"nome": "Pozione"}, 
+    {"nome": "Spada Arrugginita"}, 
+    {"nome": "Scudo"}, 
+    {"nome": "PC"}, 
+    {"nome": "Orologio"},
+    {"nome": "Libro Magico"},
+    ]
 
 # --- FUNZIONI DELL'INTERFACCIA ---
 def aggiorna_stato():
